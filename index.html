@@ -10,16 +10,16 @@
         <h1>Bienvenidos a mi Sitio Web</h1>
     </header>
     <main>
-        <div>
+        <section>
             <h2> Acerca de Mi</h2>
             <p>Hola, mi nombre es Luis Alcides Santana tengo 36 años, soy de la ciudad de Valledupar y estoy aprendiendo a crear páginas web.
                 Por el momento utilizo etiquetas básicas de HTML, pero mas adelante mejorare mis páginas.</p>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2> Aqui mi Imagen.....</h2>
             <img src="foto.jpeg" width="200" height="250">
-        </div>
-        <div>
+        </section>
+        <section>
             <h2>Mis Hobbies</h2>
             <ul>
                 <li>Jugar Futbol</li>
@@ -34,8 +34,8 @@
                 <li>Hacer Mercado</li>
                 <li>Salir de paseo con mi familia </li>
             </ol>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2> Horario Semanal</h2>
             <table>
                 <tr>
@@ -55,11 +55,23 @@
                     <td>Jugar Futbol</td>
                     <td>Comer</td>
                     <td>Salir de paseo con mi familia</td>
-
                 </tr>
             </table>
+        </section>
+        <section>
+            <h2>Contacto</h2>
+            <form action="" onsubmit="validarFormulario()">
+                <label>Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label>Motivo:</label>
+                <input type="text" id="motivo" name="motivo">
+                <label>Correo electrónico</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
 
-        </div>
     </main>
 
     
