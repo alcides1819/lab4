@@ -84,9 +84,7 @@ th{
     background-color: #f2f2f2;
 }
 .container{
-    margin:auto;
-    width:"200";
-
+   text-align: center;
 }
 img{
    max-width: 200px;
