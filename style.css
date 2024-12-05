@@ -19,7 +19,8 @@ section{
     box-shadow: 0 4px 8px rgb(0,0,0,0.1);
 }
 h2{
-    color:aqua
+    color:aqua;
+    text-align: center;
 }
 ul{
     list-style-type: none;
@@ -81,4 +82,7 @@ th, td{
 }
 th{
     background-color: #f2f2f2;
+}
+img{
+    text-align: center;
 }
